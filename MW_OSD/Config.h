@@ -4,7 +4,7 @@
 
 /********************       OSD HARDWARE settings      *********************/
 //Choose ONLY ONE option:
-//#define MINIMOSD                  // Uncomment this if using standard MINIMOSD hardware (default)
+#define MINIMOSD                  // Uncomment this if using standard MINIMOSD hardware (default)
 //#define MICROMINIMOSD             // Uncomment this if using the MICRO MINIMOSD hardware
 //#define AEROMAX                   // Uncomment this if using MWOSD AEROMAX hardware
 //#define RTFQV1                    // Uncomment this if using standard RTFQ/Witespy V1.1 OSD, select this to correct for both swapped bat1/bat 2 and to also use alternative resistors / pinouts.  
@@ -31,7 +31,7 @@
 // latest release...
 //#define BETAFLIGHT                // Uncomment this if you are using latest BETAFLIGHT version 3.1 onwards
 //#define CLEANFLIGHT               // Uncomment this if you are using latest CLEANFLIGHT version from repository (2.0 at time of this MWOSD release)
-//#define iNAV                      // Uncomment this if you are using latest iNAV version from repository (1.01 at time of this MWOSD release)
+#define iNAV                      // Uncomment this if you are using latest iNAV version from repository (1.01 at time of this MWOSD release)
 //#define APM                       // Uncomment this if you are using APM MAVLINK 1.0 compatible FC
 //#define PX4                       // Uncomment this if you are using PIXHAWK with PX4 stack
 //#define BASEFLIGHT                // Uncomment this if you are using latest BASEFLIGHT version from repository (Stable 2015.08.27 at time of this MWOSD release)
@@ -106,7 +106,7 @@
 /********************       TELEMETRY settings      *********************/
 //Select ONLY if you are sure your OSD is connected to a telemetry feed such as MAVLINK/LTM:
 //#define RESETHOMEARMED            // Uncomment this ONLY if armed information is sent within telemetry feeed AND you do not want to reset home position when re-arming. DO NOT DISARM IN FLIGHT 
-//#define FORCE_MSP                 // Uncomment to enable use of MSP as well as telemetry. Uses more memory 
+#define FORCE_MSP                 // Uncomment to enable use of MSP as well as telemetry. Uses more memory 
 //#define PROTOCOL_LTM              // To use LTM protocol instead of MSP
 
 
@@ -157,7 +157,7 @@
 
 /******************** Serial speed settings *********************/
 // Overides defaults if required (57.6k for MAVLINK based or 115k for all others). 
-//#define BAUDRATE 115200
+#define BAUDRATE 115200
 //#define BAUDRATE 57600
 //#define BAUDRATE 38400
 //#define BAUDRATE 19200
