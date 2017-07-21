@@ -1,0 +1,12 @@
+*.o
+.DS_Store
+*~
+*.uvopt
+*.dep
+*.bak
+*.uvgui.*
+.project
+.settings
+.cproject
+*.hex
+FIRMWARE/
